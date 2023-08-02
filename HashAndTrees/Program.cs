@@ -15,12 +15,12 @@ public class Program
                 case 1:
                     Console.WriteLine(" => HashTable ");
                     MyMapNode<string, string> hash = new MyMapNode<string, string>(5);
-                    hash.Add("0", "a");
-                    hash.Add("1", "b");
-                    hash.Add("2", "yes");
-                    hash.Add("3", "no");
-                    hash.Add("4", "y");
-                    hash.Add("5", "z");
+                    hash.Add("0", "To");
+                    hash.Add("1", "be");
+                    hash.Add("2", "or");
+                    hash.Add("3", "not");
+                    hash.Add("4", "To");
+                    hash.Add("5", "be");
                     string hash5 = hash.Get("5");
                     Console.WriteLine("5th index value : " + hash5);
                     hash.Remove("2");
